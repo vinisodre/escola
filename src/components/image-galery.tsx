@@ -35,7 +35,7 @@ export function ImageGalery() {
               <span className="sr-only">View</span>
             </Link>
             <img
-              src="/placeholder.svg"
+              src="https://images.unsplash.com/photo-1692827728176-955e9588dede?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Gallery Image"
               width={400}
               height={400}
@@ -47,55 +47,7 @@ export function ImageGalery() {
               <span className="sr-only">View</span>
             </Link>
             <img
-              src="/placeholder.svg"
-              alt="Gallery Image"
-              width={400}
-              height={600}
-              className="w-full h-full object-cover transition-all group-hover:scale-105"
-            />
-          </div>
-          <div className="relative group overflow-hidden rounded-lg">
-            <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
-              <span className="sr-only">View</span>
-            </Link>
-            <img
-              src="/placeholder.svg"
-              alt="Gallery Image"
-              width={600}
-              height={400}
-              className="w-full h-full object-cover transition-all group-hover:scale-105"
-            />
-          </div>
-          <div className="relative group overflow-hidden rounded-lg">
-            <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
-              <span className="sr-only">View</span>
-            </Link>
-            <img
-              src="/placeholder.svg"
-              alt="Gallery Image"
-              width={400}
-              height={400}
-              className="w-full h-full object-cover transition-all group-hover:scale-105"
-            />
-          </div>
-          <div className="relative group overflow-hidden rounded-lg">
-            <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
-              <span className="sr-only">View</span>
-            </Link>
-            <img
-              src="/placeholder.svg"
-              alt="Gallery Image"
-              width={600}
-              height={400}
-              className="w-full h-full object-cover transition-all group-hover:scale-105"
-            />
-          </div>
-          <div className="relative group overflow-hidden rounded-lg">
-            <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
-              <span className="sr-only">View</span>
-            </Link>
-            <img
-              src="/placeholder.svg"
+              src="https://images.unsplash.com/photo-1692827728176-955e9588dede?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Gallery Image"
               width={400}
               height={600}
@@ -107,7 +59,19 @@ export function ImageGalery() {
               <span className="sr-only">View</span>
             </Link>
             <img
-              src="/placeholder.svg"
+              src="https://images.unsplash.com/photo-1692827728176-955e9588dede?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Gallery Image"
+              width={600}
+              height={400}
+              className="w-full h-full object-cover transition-all group-hover:scale-105"
+            />
+          </div>
+          <div className="relative group overflow-hidden rounded-lg">
+            <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
+              <span className="sr-only">View</span>
+            </Link>
+            <img
+              src="https://images.unsplash.com/photo-1692827728176-955e9588dede?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Gallery Image"
               width={400}
               height={400}
@@ -119,7 +83,43 @@ export function ImageGalery() {
               <span className="sr-only">View</span>
             </Link>
             <img
-              src="/placeholder.svg"
+              src="https://images.unsplash.com/photo-1692827728176-955e9588dede?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Gallery Image"
+              width={600}
+              height={400}
+              className="w-full h-full object-cover transition-all group-hover:scale-105"
+            />
+          </div>
+          <div className="relative group overflow-hidden rounded-lg">
+            <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
+              <span className="sr-only">View</span>
+            </Link>
+            <img
+              src="https://images.unsplash.com/photo-1692827728176-955e9588dede?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Gallery Image"
+              width={400}
+              height={600}
+              className="w-full h-full object-cover transition-all group-hover:scale-105"
+            />
+          </div>
+          <div className="relative group overflow-hidden rounded-lg">
+            <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
+              <span className="sr-only">View</span>
+            </Link>
+            <img
+              src="https://images.unsplash.com/photo-1692827728176-955e9588dede?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Gallery Image"
+              width={400}
+              height={400}
+              className="w-full h-full object-cover transition-all group-hover:scale-105"
+            />
+          </div>
+          <div className="relative group overflow-hidden rounded-lg">
+            <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
+              <span className="sr-only">View</span>
+            </Link>
+            <img
+              src="https://images.unsplash.com/photo-1692827728176-955e9588dede?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Gallery Image"
               width={600}
               height={400}

@@ -23,7 +23,7 @@ export function Hero() {
   return (
     <section
       className="relative w-full h-[60vh] flex items-center justify-center bg-cover bg-center"
-      style={{ backgroundImage: 'url("/hero-bg.jpg")' }}
+      style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1692827728176-955e9588dede?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")' }}
     >
       <div className="absolute inset-0 bg-black/50 z-0" />
       <div className="relative z-10 text-center space-y-6 max-w-3xl px-4 sm:px-6 lg:px-8">

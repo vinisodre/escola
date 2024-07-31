@@ -29,7 +29,7 @@ export function BlogBlock() {
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           <div className="rounded-lg overflow-hidden shadow-lg">
             <img
-              src="/placeholder.svg"
+              src="https://images.unsplash.com/photo-1692827728176-955e9588dede?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Blog Post Image"
               width={400}
               height={225}
@@ -53,7 +53,7 @@ export function BlogBlock() {
           </div>
           <div className="rounded-lg overflow-hidden shadow-lg">
             <img
-              src="/placeholder.svg"
+              src="https://images.unsplash.com/photo-1692827728176-955e9588dede?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Blog Post Image"
               width={400}
               height={225}
@@ -77,7 +77,7 @@ export function BlogBlock() {
           </div>
           <div className="rounded-lg overflow-hidden shadow-lg">
             <img
-              src="/placeholder.svg"
+              src="https://images.unsplash.com/photo-1692827728176-955e9588dede?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Blog Post Image"
               width={400}
               height={225}
@@ -101,7 +101,7 @@ export function BlogBlock() {
           </div>
           <div className="rounded-lg overflow-hidden shadow-lg">
             <img
-              src="/placeholder.svg"
+              src="https://images.unsplash.com/photo-1692827728176-955e9588dede?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Blog Post Image"
               width={400}
               height={225}
@@ -125,7 +125,7 @@ export function BlogBlock() {
           </div>
           <div className="rounded-lg overflow-hidden shadow-lg">
             <img
-              src="/placeholder.svg"
+              src="https://images.unsplash.com/photo-1692827728176-955e9588dede?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Blog Post Image"
               width={400}
               height={225}
@@ -149,7 +149,7 @@ export function BlogBlock() {
           </div>
           <div className="rounded-lg overflow-hidden shadow-lg">
             <img
-              src="/placeholder.svg"
+              src="https://images.unsplash.com/photo-1692827728176-955e9588dede?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Blog Post Image"
               width={400}
               height={225}
