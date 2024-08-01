@@ -27,26 +27,84 @@ const menu = [
   
   const footerMenu = [
     {
-      name: 'Política de Privacidade',
-      href: '/privacidade',
+      title: 'Escola',
+      links: [
+        {
+          name: 'Sobre',
+          href: '/sobre',
+        },
+        {
+          name: 'Direção',
+          href: '/direcao',
+        },
+        {
+          name: 'Avisos',
+          href: '/avisos',
+        },
+        {
+          name: 'Projetos',
+          href: '/projetos',
+        },
+      ],
     },
     {
-      name: 'Termos de Serviço',
-      href: '/termos',
+      title: 'Professores',
+      links: [
+        {
+          name: 'Quem Somos',
+          href: '/quem-somos',
+        },
+        {
+          name: 'Disciplinas',
+          href: '/disciplinas',
+        },
+        {
+          name: 'Testes e Provas',
+          href: '/testes-e-provas',
+        },
+      ],
     },
     {
-      name: 'Suporte',
-      href: '/suporte',
+      title: 'Alunos',
+      links: [
+        {
+          name: 'Destaques do Bimestre',
+          href: '/destaques-do-bimestre',
+        },
+        {
+          name: 'Grêmio',
+          href: '/gremio',
+        },
+        {
+          name: 'Talentos da Escola',
+          href: '/talentos-da-escola',
+        },
+        {
+          name: 'Cursos e Oportunidades',
+          href: '/cursos-e-oportunidades',
+        },
+      ],
     },
     {
-      name: 'Carreiras',
-      href: '/carreiras',
-    },
-    {
-      name: 'Blog',
-      href: '/blog',
-    },
+      title: 'Questões Legais',
+      links: [
+        {
+          name: 'Calendário Anual',
+          href: '/calendario',
+        },
+        {
+          name: 'Seeduc',
+          href: '/seeduc',
+        },
+        {
+          name: 'Políticas de privacidade',
+          href: '/politicas-de-privacidade',
+        },
+      ],
+    }
+
   ];
+  
   
   export { menu, footerMenu };
   
