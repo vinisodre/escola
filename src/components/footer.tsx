@@ -21,7 +21,7 @@ import Link from "next/link"
 
 export function Footer() {
   return (
-    <footer className="bg-muted w-full ">
+    <footer className="bg-muted w-full pt-6">
       <div className="bg-accent md:py-12 lg:py-16 flex flex-col justify-center items-center mx-auto">
         <div className="container px-4 md:px-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 text-sm">
           <div className="grid gap-1">
