@@ -26,7 +26,7 @@ export function TwoColumnsText() {
         <div>
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Introducing our new product</h2>
         </div>
-        <div className="grid grid-cols-2 gap-8">
+        <div className="grid lg:grid-cols-2 gap-8">
           <div>
             {/* <h3 className="text-xl font-semibold mb-4">Features</h3> */}
             <p className="text-muted-foreground">
