@@ -18,14 +18,15 @@ To read more about using these font, please visit the Next.js documentation:
 - Pages Directory: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
 **/
 import Link from "next/link"
+import { footerMenu } from "@/constants"
 
 export function Footer() {
   return (
     <footer className="bg-muted w-full pt-6">
       <div className="bg-accent md:py-12 lg:py-16 flex flex-col justify-center items-center mx-auto">
-        <div className="container px-4 md:px-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 text-sm">
+        <div className="container px-4 md:px-6 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 gap-8 text-sm">
           <div className="grid gap-1">
-            <Link href="#" className="flex items-center gap-2" prefetch={false}>
+            <Link href="#" className="flex items-center gap-2">
               <MountainIcon className="h-6 w-6" />
               <span className="font-medium">Acme Inc</span>
             </Link>
@@ -33,78 +34,28 @@ export function Footer() {
               Beautifully designed components that you can copy and paste into your apps.
             </p>
           </div>
-          <div className="grid gap-1">
-            <h3 className="font-semibold">Company</h3>
-            <Link href="#" className="hover:underline" prefetch={false}>
-              About Us
-            </Link>
-            <Link href="#" className="hover:underline" prefetch={false}>
-              Our Team
-            </Link>
-            <Link href="#" className="hover:underline" prefetch={false}>
-              Careers
-            </Link>
-            <Link href="#" className="hover:underline" prefetch={false}>
-              News
-            </Link>
-          </div>
-          <div className="grid gap-1">
-            <h3 className="font-semibold">Products</h3>
-            <Link href="#" className="hover:underline" prefetch={false}>
-              Men
-            </Link>
-            <Link href="#" className="hover:underline" prefetch={false}>
-              Women
-            </Link>
-            <Link href="#" className="hover:underline" prefetch={false}>
-              Kids
-            </Link>
-            <Link href="#" className="hover:underline" prefetch={false}>
-              Accessories
-            </Link>
-          </div>
-          <div className="grid gap-1">
-            <h3 className="font-semibold">Resources</h3>
-            <Link href="#" className="hover:underline" prefetch={false}>
-              Blog
-            </Link>
-            <Link href="#" className="hover:underline" prefetch={false}>
-              Community
-            </Link>
-            <Link href="#" className="hover:underline" prefetch={false}>
-              Support
-            </Link>
-            <Link href="#" className="hover:underline" prefetch={false}>
-              FAQs
-            </Link>
-          </div>
-          <div className="grid gap-1">
-            <h3 className="font-semibold">Legal</h3>
-            <Link href="#" className="hover:underline" prefetch={false}>
-              Privacy Policy
-            </Link>
-            <Link href="#" className="hover:underline" prefetch={false}>
-              Terms of Service
-            </Link>
-            <Link href="#" className="hover:underline" prefetch={false}>
-              Cookie Policy
-            </Link>
-          </div>
+          {footerMenu.map((item, index) => (
+            <div key={index} className="grid gap-1">
+              <h3 className="font-semibold">{item.title}</h3>
+              {item.links.map((link, linkIndex) => (
+                <Link key={linkIndex} href={link.href} className="hover:underline">
+                  {link.name}
+                </Link>
+              ))}
+            </div>
+          ))}
         </div>
         <div className="container px-4 md:px-6 mt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-muted-foreground">
-          <p>&copy; 2024 Acme Inc. All rights reserved.</p>
+          <p>&copy; 2024.</p>
           <nav className="flex gap-4 mt-4 sm:mt-0">
-            <Link href="#" className="hover:underline" prefetch={false}>
-              Terms of Service
-            </Link>
-            <Link href="#" className="hover:underline" prefetch={false}>
-              Privacy Policy
+            <Link href="#" className="hover:underline">
+              Feito com carinho por Vinicius Sodré
             </Link>
           </nav>
         </div>
       </div>
     </footer>
-  )
+  );
 }
 
 function MountainIcon(props) {
