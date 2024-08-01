@@ -34,45 +34,27 @@ export function Footer() {
             </p>
           </div>
           <div className="grid gap-1">
-            <h3 className="font-semibold">Company</h3>
+            <h3 className="font-semibold">Escola</h3>
             <Link href="#" className="hover:underline" prefetch={false}>
               About Us
             </Link>
-            <Link href="#" className="hover:underline" prefetch={false}>
-              Our Team
-            </Link>
-            <Link href="#" className="hover:underline" prefetch={false}>
-              Careers
-            </Link>
-            <Link href="#" className="hover:underline" prefetch={false}>
-              News
-            </Link>
           </div>
           <div className="grid gap-1">
-            <h3 className="font-semibold">Products</h3>
+            <h3 className="font-semibold">Professores</h3>
             <Link href="#" className="hover:underline" prefetch={false}>
               Men
             </Link>
-            <Link href="#" className="hover:underline" prefetch={false}>
-              Women
-            </Link>
-            <Link href="#" className="hover:underline" prefetch={false}>
-              Kids
-            </Link>
-            <Link href="#" className="hover:underline" prefetch={false}>
-              Accessories
-            </Link>
           </div>
           <div className="grid gap-1">
-            <h3 className="font-semibold">Resources</h3>
+            <h3 className="font-semibold">Recursos</h3>
             <Link href="#" className="hover:underline" prefetch={false}>
               Blog
             </Link>
             <Link href="#" className="hover:underline" prefetch={false}>
-              Community
+              Projetos
             </Link>
             <Link href="#" className="hover:underline" prefetch={false}>
-              Support
+              Santa Cruz da Serra
             </Link>
             <Link href="#" className="hover:underline" prefetch={false}>
               FAQs
@@ -81,24 +63,18 @@ export function Footer() {
           <div className="grid gap-1">
             <h3 className="font-semibold">Legal</h3>
             <Link href="#" className="hover:underline" prefetch={false}>
-              Privacy Policy
+              Política de Privacidade
             </Link>
             <Link href="#" className="hover:underline" prefetch={false}>
-              Terms of Service
-            </Link>
-            <Link href="#" className="hover:underline" prefetch={false}>
-              Cookie Policy
+              Política de Cookies
             </Link>
           </div>
         </div>
         <div className="container px-4 md:px-6 mt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-muted-foreground">
-          <p>&copy; 2024 Acme Inc. All rights reserved.</p>
+          <p>&copy; 2024.</p>
           <nav className="flex gap-4 mt-4 sm:mt-0">
             <Link href="#" className="hover:underline" prefetch={false}>
-              Terms of Service
-            </Link>
-            <Link href="#" className="hover:underline" prefetch={false}>
-              Privacy Policy
+              Feito com carinho por Vinicius Sodré
             </Link>
           </nav>
         </div>
