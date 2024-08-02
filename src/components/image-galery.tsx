@@ -22,108 +22,54 @@ import Link from "next/link"
 export function ImageGalery() {
   return (
     <section className="w-full py-12">
-      <div className="container grid gap-8 px-4 md:px-6 mx-auto">
+      <div className="container px-4 md:px-6 mx-auto">
         <div className="space-y-3">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Explore Our Mosaic Gallery</h2>
           <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             Discover a captivating collection of diverse images in our mosaic gallery.
           </p>
         </div>
-        <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          <div className="relative group overflow-hidden rounded-lg">
-            <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
-              <span className="sr-only">View</span>
-            </Link>
+        <div className=" columns-1 sm:columns-2 lg:columns-3 py-10 md:py-20 gap-4">
+          <div className="mb-4 break-inside-avoid">
             <img
               src="https://images.unsplash.com/photo-1692827728176-955e9588dede?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Gallery Image"
-              width={400}
-              height={400}
-              className="w-full h-full object-cover transition-all group-hover:scale-105"
+              className="w-full object-cover rounded-lg"
             />
           </div>
-          <div className="relative group overflow-hidden rounded-lg">
-            <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
-              <span className="sr-only">View</span>
-            </Link>
+          <div className="mb-4 break-inside-avoid">
             <img
-              src="https://images.unsplash.com/photo-1692827728176-955e9588dede?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="https://images.unsplash.com/photo-1719937051124-91c677bc58fc?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Gallery Image"
-              width={400}
-              height={600}
-              className="w-full h-full object-cover transition-all group-hover:scale-105"
+              className="w-full object-cover rounded-lg"
             />
           </div>
-          <div className="relative group overflow-hidden rounded-lg">
-            <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
-              <span className="sr-only">View</span>
-            </Link>
+          <div className="mb-4 break-inside-avoid">
             <img
               src="https://images.unsplash.com/photo-1692827728176-955e9588dede?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Gallery Image"
-              width={600}
-              height={400}
-              className="w-full h-full object-cover transition-all group-hover:scale-105"
+              className="w-full object-cover rounded-lg"
             />
           </div>
-          <div className="relative group overflow-hidden rounded-lg">
-            <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
-              <span className="sr-only">View</span>
-            </Link>
+          <div className="mb-4 break-inside-avoid">
             <img
-              src="https://images.unsplash.com/photo-1692827728176-955e9588dede?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="https://images.unsplash.com/photo-1715421363314-770e21fe00d1?q=80&w=2576&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Gallery Image"
-              width={400}
-              height={400}
-              className="w-full h-full object-cover transition-all group-hover:scale-105"
+              className="w-full object-cover rounded-lg"
             />
           </div>
-          <div className="relative group overflow-hidden rounded-lg">
-            <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
-              <span className="sr-only">View</span>
-            </Link>
+          <div className="mb-4 break-inside-avoid">
             <img
               src="https://images.unsplash.com/photo-1692827728176-955e9588dede?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Gallery Image"
-              width={600}
-              height={400}
-              className="w-full h-full object-cover transition-all group-hover:scale-105"
+              className="w-full object-cover rounded-lg"
             />
           </div>
-          <div className="relative group overflow-hidden rounded-lg">
-            <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
-              <span className="sr-only">View</span>
-            </Link>
+          <div className="mb-4 break-inside-avoid">
             <img
               src="https://images.unsplash.com/photo-1692827728176-955e9588dede?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Gallery Image"
-              width={400}
-              height={600}
-              className="w-full h-full object-cover transition-all group-hover:scale-105"
-            />
-          </div>
-          <div className="relative group overflow-hidden rounded-lg">
-            <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
-              <span className="sr-only">View</span>
-            </Link>
-            <img
-              src="https://images.unsplash.com/photo-1692827728176-955e9588dede?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt="Gallery Image"
-              width={400}
-              height={400}
-              className="w-full h-full object-cover transition-all group-hover:scale-105"
-            />
-          </div>
-          <div className="relative group overflow-hidden rounded-lg">
-            <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
-              <span className="sr-only">View</span>
-            </Link>
-            <img
-              src="https://images.unsplash.com/photo-1692827728176-955e9588dede?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt="Gallery Image"
-              width={600}
-              height={400}
-              className="w-full h-full object-cover transition-all group-hover:scale-105"
+              className="w-full object-cover rounded-lg"
             />
           </div>
         </div>
@@ -131,3 +77,19 @@ export function ImageGalery() {
     </section>
   )
 }
+
+{/* <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          <div className="relative group overflow-hidden rounded-lg">
+            <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
+              <span className="sr-only">View</span>
+            </Link>
+            <img
+              src="https://images.unsplash.com/photo-1692827728176-955e9588dede?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Gallery Image"
+              width={400}
+              height={400}
+              className="w-full h-full object-cover transition-all group-hover:scale-105"
+            />
+          </div>
+         
+        </div> */}
