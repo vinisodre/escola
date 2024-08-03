@@ -18,13 +18,14 @@ To read more about using these font, please visit the Next.js documentation:
 - Pages Directory: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
 **/
 import Link from "next/link"
+import { Button } from "./ui/button"
 
 export function BlogBlock() {
   return (
     <section className="py-12 md:py-16 lg:py-20">
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <div className="mb-8 md:mb-10 lg:mb-12">
-          <h2 className="text-2xl font-bold tracking-tight md:text-3xl lg:text-4xl">Latest from the Blog</h2>
+          <h2 className="text-2xl font-bold tracking-tight md:text-3xl lg:text-4xl">As últimas do nosso Blog</h2>
         </div>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           <div className="rounded-lg overflow-hidden shadow-lg">
@@ -170,6 +171,9 @@ export function BlogBlock() {
               </Link>
             </div>
           </div>
+        </div>
+        <div className="flex justify-end mt-12">
+          <Button variant="link" className="">Ver mais artigos <ArrowRightIcon className="ml-1 w-4 h-4" /> </Button>
         </div>
       </div>
     </section>
