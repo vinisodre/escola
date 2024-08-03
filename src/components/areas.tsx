@@ -18,32 +18,21 @@ To read more about using these font, please visit the Next.js documentation:
 - Pages Directory: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
 **/
 import { Button } from "@/components/ui/button"
+import { imagesAreas } from "@/constants"
 
 export function Areas() {
   return (
     <section className="flex flex-col items-center justify-center gap-8 py-12 md:py-24">
       <div className="container px-4 md:px-6 grid grid-cols-1 gap-8 sm:grid-cols-3">
-        <div className="flex flex-col items-center justify-center gap-4 rounded-lg border bg-background p-6 text-center shadow-sm" style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1692827728176-955e9588dede?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")' }}>
+        {imagesAreas.map((image, index) => (
+          <div className="flex flex-col items-center justify-center gap-4 rounded-lg border bg-background p-6 text-center shadow-sm  h-72 " style={{ backgroundImage: `url(${image})` }} key={index}>
           <h3 className="text-2xl font-bold">Box 1</h3>
           <p className="text-muted-foreground">
             This is the content for the first box. It can include any relevant information or a call-to-action.
           </p>
-          <Button className="mt-4">Button</Button>
+          <Button className="mt-4">Acessar</Button>
         </div>
-        <div className="flex flex-col items-center justify-center gap-4 rounded-lg border bg-background p-6 text-center shadow-sm" style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1692827728176-955e9588dede?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")' }}>
-          <h3 className="text-2xl font-bold">Box 2</h3>
-          <p className="text-muted-foreground">
-            This is the content for the second box. It can include any relevant information or a call-to-action.
-          </p>
-          <Button className="mt-4">Button</Button>
-        </div>
-        <div className="flex flex-col items-center justify-center gap-4 rounded-lg border bg-background p-6 text-center shadow-sm" style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1692827728176-955e9588dede?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")' }}>
-          <h3 className="text-2xl font-bold">Box 3</h3>
-          <p className="text-muted-foreground">
-            This is the content for the third box. It can include any relevant information or a call-to-action.
-          </p>
-          <Button className="mt-4">Button</Button>
-        </div>
+        ))}
       </div>
     </section>
   )

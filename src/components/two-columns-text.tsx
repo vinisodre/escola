@@ -21,7 +21,7 @@ To read more about using these font, please visit the Next.js documentation:
 **/
 export function TwoColumnsText() {
   return (
-    <div className="container mx-auto py-12 px-4 md:px-6 lg:py-16">
+    <div className="container mx-auto px-4 md:px-6 py-12 md:py-24">
       <div className="grid grid-cols-1 gap-8">
         <div>
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Introducing our new product</h2>

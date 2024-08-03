@@ -7,7 +7,7 @@ import Link from "next/link"
 import { imagesExemples } from "@/constants"
 export function ImageGalery() {
   return (
-    <section className="w-full py-12">
+    <section className="w-full py-12 md:py-24">
       <div className="container px-4 md:px-6 mx-auto">
         <div className="space-y-3">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Explore Our Mosaic Gallery</h2>
