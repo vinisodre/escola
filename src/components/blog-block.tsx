@@ -19,10 +19,12 @@ To read more about using these font, please visit the Next.js documentation:
 **/
 import Link from "next/link"
 import { Button } from "./ui/button"
+import ArrowRightIcon from "./ui/ArrowRightIcon"
+
 
 export function BlogBlock() {
   return (
-    <section className="py-12 md:py-16 lg:py-20">
+    <section className="py-12 md:py-24">
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <div className="mb-8 md:mb-10 lg:mb-12">
           <h2 className="text-2xl font-bold tracking-tight md:text-3xl lg:text-4xl">As últimas do nosso Blog</h2>
@@ -180,43 +182,3 @@ export function BlogBlock() {
   )
 }
 
-function ArrowRightIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M5 12h14" />
-      <path d="m12 5 7 7-7 7" />
-    </svg>
-  )
-}
-
-
-function XIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M18 6 6 18" />
-      <path d="m6 6 12 12" />
-    </svg>
-  )
-}
