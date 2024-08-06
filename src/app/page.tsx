@@ -1,18 +1,46 @@
-import { Areas } from "@/components/areas";
+
 import { BlogBlock } from "@/components/blog-block";
 import { Hero } from "@/components/hero";
 import { ImageGalery } from "@/components/image-galery";
 import { ImageTextBlock } from "@/components/image-text-block";
 import { TwoColumnsText } from "@/components/two-columns-text";
+import AreaBlock from "@/components/ui/AreaBlock";
 import Image from "next/image";
+
+import { areas } from '@/constants';
+
 
 export default function Home() {
   return (
     <main className="">
-      <Hero />
-      <Areas />
-      <TwoColumnsText />
-      <ImageTextBlock />
+      <Hero 
+        title="Lorem ipsum dolor sit."
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        hasButton
+        link="/"
+        linkText="Saiba mais"
+      />
+     <AreaBlock areas={areas} />
+      
+      <TwoColumnsText 
+        title="Sobre nós" 
+        column1="Nossa história e nossa missão."
+        column2=" Nossos valores."
+        hasButton
+        />
+
+      <ImageTextBlock 
+        title="Nossos Serviços"
+        description="Aqui mostraremos os nossos Serviços e os valores que nos foram dadas."
+        hasTwoButtons
+        linkButtonOne="/"
+        linkButtonTwo="/"
+        buttonTextOne="Saiba mais"
+        buttonTextTwo="Saiba ainda mais"
+        image= "https://images.unsplash.com/photo-1719937206168-f4c829152b91?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="teste"
+        />
+
       <ImageGalery />
       <BlogBlock />
     </main>

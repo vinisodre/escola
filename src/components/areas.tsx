@@ -20,20 +20,30 @@ To read more about using these font, please visit the Next.js documentation:
 import { Button } from "@/components/ui/button"
 import { imagesAreas } from "@/constants"
 
-export function Areas() {
+export type AreasProps = {
+  title?: string;
+  description?: string;
+  hasButton: boolean;
+  link?: string;
+  buttonText: string;
+  imageHref: string;
+};
+
+export function Areas({title, description, imageHref, hasButton = false, link, buttonText}: AreasProps) {
   return (
-    <section className="flex flex-col items-center justify-center gap-8 py-12 md:py-24">
-      <div className="container px-4 md:px-6 grid grid-cols-1 gap-8 sm:grid-cols-3">
-        {imagesAreas.map((image, index) => (
-          <div className="flex flex-col items-center justify-center gap-4 rounded-lg border bg-background p-6 text-center shadow-sm  h-72 " style={{ backgroundImage: `url(${image})` }} key={index}>
-          <h3 className="text-2xl font-bold">Box 1</h3>
+    
+        <>
+          <div className="flex flex-col items-center justify-center gap-4 rounded-lg border bg-background p-6 text-center shadow-sm  h-72 " style={{ backgroundImage: `url(${imageHref})` }}>
+          <h3 className="text-2xl font-bold">{title}</h3>
           <p className="text-muted-foreground">
-            This is the content for the first box. It can include any relevant information or a call-to-action.
+            { description}
           </p>
-          <Button className="mt-4">Acessar</Button>
+          {hasButton && (
+            <Button className="mt-4">{buttonText}</Button>
+          )
+          }
         </div>
-        ))}
-      </div>
-    </section>
+        </>
+      
   )
 }

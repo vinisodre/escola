@@ -24,6 +24,37 @@ const menu = [
       href: '/professores',
     },
   ];
+
+  const areas = [
+    {
+      title: "New Product Launch",
+      description:
+        "Discover the amazing features of our new product. It’s designed to enhance your productivity and efficiency.",
+      hasButton: true,
+      link: "/product-launch",
+      buttonText: "Learn More",
+      imageHref: "https://images.unsplash.com/photo-1722171210773-4a2e54197061?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    },
+    {
+      title: "Summer Sale",
+      description:
+        "Take advantage of our summer sale with up to 50% off on selected items. Hurry, offer ends soon!",
+      hasButton: true,
+      link: "/summer-sale",
+      buttonText: "Shop Now",
+      imageHref: "https://images.unsplash.com/photo-1722171210773-4a2e54197061?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    },
+    {
+      title: "Customer Testimonials",
+      description:
+        "Hear from our satisfied customers about how our products have made a difference in their lives.",
+      hasButton: false, // No button for this item
+      link: "", // No link as there is no button
+      buttonText: "",
+      imageHref: "https://images.unsplash.com/photo-1722171210773-4a2e54197061?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    },
+  ];
+  
   
   const footerMenu = [
     {
@@ -311,5 +342,5 @@ const menu = [
   }];
   
 
-  export { menu, footerMenu, imagesExemples, imagesAreas, professores };
+  export { menu, areas, footerMenu, imagesExemples, imagesAreas, professores };
   
