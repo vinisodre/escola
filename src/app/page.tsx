@@ -1,13 +1,13 @@
 
-import { BlogBlock } from "@/components/blog-block";
-import { Hero } from "@/components/hero";
-import { ImageGalery } from "@/components/image-galery";
-import { ImageTextBlock } from "@/components/image-text-block";
-import { TwoColumnsText } from "@/components/two-columns-text";
+import { BlogBlock } from "@/components/Blog-block";
+import { Hero } from "@/components/Hero";
+import { ImageGalery } from "@/components/ImageGaleryBlock";
+import { ImageTextBlock } from "@/components/ImageTextBlock";
+import { TwoColumnsText } from "@/components/TwoColumnsText";
 import AreaBlock from "@/components/ui/AreaBlock";
 import Image from "next/image";
 
-import { areas } from '@/constants';
+import { areas, imagesExamples, blogPosts } from '@/constants';
 
 
 export default function Home() {
@@ -41,8 +41,9 @@ export default function Home() {
         alt="teste"
         />
 
-      <ImageGalery />
-      <BlogBlock />
+      <ImageGalery title="Título" description="um subtitulo para chamar a atenção" galery={imagesExamples} />
+      
+      <BlogBlock blockTitle="Artigos do nosso blog" posts={blogPosts} hasButton/>
     </main>
   );
 }

@@ -1,7 +1,7 @@
-import { Hero } from '@/components/hero'
-import { ImageGalery } from '@/components/image-galery'
-import { ImageTextBlock } from '@/components/image-text-block'
-import { TwoColumnsText } from '@/components/two-columns-text'
+import { Hero } from '@/components/Hero'
+import { ImageGalery } from '@/components/ImageGaleryBlock'
+import { ImageTextBlock } from '@/components/ImageTextBlock'
+import { TwoColumnsText } from '@/components/TwoColumnsText'
 import React from 'react'
 
 const page = () => {
