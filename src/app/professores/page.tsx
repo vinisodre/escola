@@ -1,6 +1,6 @@
-import { Hero } from '@/components/hero'
+import { Hero } from '@/components/Hero'
 import { MyTeam } from '@/components/MyTeam'
-import { TwoColumnsText } from '@/components/two-columns-text'
+import { TwoColumnsText } from '@/components/TwoColumnsText'
 import React from 'react'
 
 const professores = () => {

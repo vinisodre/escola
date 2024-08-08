@@ -20,7 +20,7 @@ To read more about using these fonts, please visit the Next.js documentation:
 "use client";
 import { professores } from "@/constants";
 import { useState } from "react";
-import { Button } from "./ui/button";
+import { Button } from "./ui/Button";
 
 export function MyTeam() {
   const [selectedProfessor, setSelectedProfessor] = useState(null);

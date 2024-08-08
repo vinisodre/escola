@@ -6,7 +6,7 @@
 
 
 import ArrowRightIcon from "./ui/ArrowRightIcon";
-import { Button } from "./ui/button";
+import { Button } from "./ui/Button";
 
 interface TwoColumnsTextProps {
   title?: string;
