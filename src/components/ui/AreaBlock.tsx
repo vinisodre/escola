@@ -1,5 +1,5 @@
-import React from 'react';
-import { Areas, AreasProps } from '../areas';
+import React from "react";
+import { Areas, AreasProps } from "../Areas";
 
 type AreaBlockProps = {
   areas: AreasProps[];
